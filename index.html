@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>My Todo List</h1>
+      <p>Stay organized and productive!</p>
+    </header>
+
+    <main class="main-content">
+      <section class="todo-input">
+        <form id="todo-form">
+          <input 
+            type="text" 
+            id="task-input" 
+            placeholder="What do you need to do?" 
+            aria-label="Task Input" 
+          />
+          <button type="submit" class="add-btn">Add Task</button>
+        </form>
+      </section>
+
+      <section class="todo-list">
+        <h2>Your Tasks</h2>
+        <ul id="task-list"></ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Todo App. Built with ❤️</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
