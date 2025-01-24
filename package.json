@@ -1,0 +1,24 @@
+{
+  "name": "todo_app-dlt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivaro22/ToDo_App-DLT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivaro22/ToDo_App-DLT/issues"
+  },
+  "homepage": "https://github.com/Shivaro22/ToDo_App-DLT#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
